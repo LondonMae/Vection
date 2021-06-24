@@ -3,8 +3,6 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - WorldManager
     Unity.InputSystem.dll:
-    - UnityEngine.InputSystem.InputActionAsset
-    - UnityEngine.InputSystem.InputActionReference
     - UnityEngine.InputSystem.InputSettings
     - UnityEngine.InputSystem.InputSystemObject
     - UnityEngine.InputSystem.RemoteInputPlayerConnection
@@ -12,10 +10,7 @@ ScriptsOnlyBuild:
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.XR.Interaction.Toolkit.dll:
-    - UnityEngine.XR.Interaction.Toolkit.ActionBasedController
-    - UnityEngine.XR.Interaction.Toolkit.Inputs.InputActionManager
     - UnityEngine.XR.Interaction.Toolkit.XRInteractionManager
-    - UnityEngine.XR.Interaction.Toolkit.XRRayInteractor
     - UnityEngine.XR.Interaction.Toolkit.XRRig
     Unity.XR.Management.Editor.dll:
     - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
@@ -29,11 +24,8 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
-    UnityEngine.UI.dll:
-    - UnityEngine.EventSystems.EventSystem
-    - UnityEngine.EventSystems.StandaloneInputModule
   sceneClasses:
-    Assets/Scenes/Outdoor.unity:
+    Assets/Scenes/Inside.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -65,30 +57,14 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1786}
+      Script: {instanceID: 2378}
     - Class: 114
-      Script: {instanceID: 2322}
+      Script: {instanceID: 2838}
     - Class: 114
-      Script: {instanceID: 2424}
+      Script: {instanceID: 3754}
     - Class: 114
-      Script: {instanceID: 2560}
-    - Class: 114
-      Script: {instanceID: 2850}
-    - Class: 114
-      Script: {instanceID: 2884}
-    - Class: 114
-      Script: {instanceID: 2916}
-    - Class: 114
-      Script: {instanceID: 3284}
-    - Class: 114
-      Script: {instanceID: 3674}
-    - Class: 114
-      Script: {instanceID: 3800}
-    - Class: 114
-      Script: {instanceID: 4240}
+      Script: {instanceID: 4194}
     - Class: 115
-      Script: {instanceID: 0}
-    - Class: 136
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -931,5 +907,5 @@ ScriptsOnlyBuild:
     className: XRUIInputModule
   platform: 13
   scenePathNames:
-  - Assets/Scenes/Outdoor.unity
+  - Assets/Scenes/Inside.unity
   playerPath: C:/Users/London Bielicke/Documents/code/Research/Vection/test.apk
